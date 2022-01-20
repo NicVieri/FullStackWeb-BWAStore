@@ -49,7 +49,7 @@
                   alt=""
                   class="rounded-circle mr-2 profile-picture"
                 />
-                Hi, Tanus
+                Hi, Vieri
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/dashboard.html">Dashboard</a>
