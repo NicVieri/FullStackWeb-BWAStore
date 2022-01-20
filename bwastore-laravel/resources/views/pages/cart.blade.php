@@ -59,8 +59,8 @@
                         <div class="product-subtitle">by {{$cart->product->user->store_name}}</div>
                       </td>
                       <td style="width: 35%;">
-                        <div class="product-title">${{number_format($cart->product->price)}}</div>
-                        <div class="product-subtitle">USD</div>
+                        <div class="product-title">Rp{{number_format($cart->product->price)}}</div>
+                        <div class="product-subtitle">Rupiah</div>
                       </td>
                       <td style="width: 20%;">
                         <form action="{{route('cart-delete', $cart->id)}}" method="POST">
